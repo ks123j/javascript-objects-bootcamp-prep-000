@@ -17,7 +17,7 @@ describe('objects', () => {
 
   describe('updatePlaylist(playlist, artistName, songTitle)', () => {
     it('adds the `artistName: songTitle` key-value pair to `playlist`', () => {
-      expect(updatePlaylist({hridan: 'plays'}, 'satish jadhav', "works php")).
+      expect(updatePlaylist({hridan: 'plays'}, 'satish', "works php")).
         to.eql({"satish jadhav": "works php" })
     })
   })
