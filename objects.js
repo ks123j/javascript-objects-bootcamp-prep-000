@@ -1,5 +1,5 @@
 
-var playlist = {satish:'work', komal:'cook', hridan:'play'};
+//var playlist = {satish:'work', komal:'cook', hridan:'play'};
 
 function updatePlaylist(obj, key, value) {
   obj[key] = value ;
